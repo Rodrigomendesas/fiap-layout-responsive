@@ -1,0 +1,20 @@
+.cabecalho > nav > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+.cabecalho > nav > ul > li {
+    padding: 10px;
+}
+
+.cabecalho > nav > ul > li > a {
+    text-decoration: none;    
+}
+
+@media screen and (max-width: 600px) {
+    .cabecalho > nav > ul {
+        flex-direction: column;
+    }   
+}
