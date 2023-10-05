@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .cabecalho > nav > ul {
     display: flex;
     justify-content: space-between;
@@ -10,7 +14,13 @@
 }
 
 .cabecalho > nav > ul > li > a {
-    text-decoration: none;    
+    text-decoration: none;
+    color: blue;    
+}
+
+.cabecalho > nav > ul > li > a:hover{
+    color: tomato;
+    font-weight: bolder;
 }
 
 @media screen and (max-width: 600px) {
